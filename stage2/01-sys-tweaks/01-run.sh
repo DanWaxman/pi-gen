@@ -56,3 +56,8 @@ rm -f "${ROOTFS_DIR}/etc/ssh/"ssh_host_*_key*
 on_chroot << EOF
 python3 -m pip install opencv-python-headless
 EOF
+
+on_chroot << EOF
+python3 -m pip install pynetworktables
+EOF
+
