@@ -23,6 +23,6 @@ EOF
 fi
 
 on_chroot <<EOF
-echo "python3 /home/pi/NetworkUsage.py" >> /etc/rc.local
+echo "python3 /home/pi/NetworkUsage.py &" >> /etc/rc.local
 EOF
 
